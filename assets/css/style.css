@@ -1,0 +1,42 @@
+/* #body {
+    position: fixed;
+    background-color: #aaa;
+    border: 5px solid #eee;
+    height: 90%;
+    width: 90%;
+    margin: 2.5% 5%;
+} */
+
+body {
+    background-color: #aaa;
+}
+
+#body1 {
+    position: absolute;
+    border-top: 2px solid rgb(238, 95, 0);
+    border-left: 2px solid rgb(238, 95, 0);
+    height: 95%;
+    width: 95%;
+    z-index: 0;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+#body2 {
+    position: absolute;
+    border-right: 2px solid rgb(238, 95, 0);
+    border-bottom: 2px solid rgb(238, 95, 0);
+    height: 95%;
+    width: 95%;
+    z-index: 1;
+    margin-bottom: 5%;
+    margin-right: 5%;
+}
+
+#myName {
+    font-size: 1.5em;
+    width: 5%;
+    text-align: center;
+    /* padding: 5px 0 90% 0; */
+    font-family: 'Saira Stencil One', cursive;
+}

@@ -1,3 +1,8 @@
+/* Google Fonts
+font-family: 'Saira Stencil One', cursive;
+font-family: 'Teko', sans-serif;
+*/
+
 /* #body {
     position: fixed;
     background-color: #aaa;
@@ -11,13 +16,41 @@ body {
     background-color: #aaa;
 }
 
+.container {
+    margin: 0 10% 10% 0;
+    font-family: 'Teko', sans-serif;
+}
+
+.rightColumn {
+    background-color: rgb(87, 87, 87);
+    /* border: 5px solid #eee; */
+    width: 20%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    z-index: 2;
+}
+
+#pictureOfMe {
+    border-radius: 55%;
+    width: 98%;
+    height: auto;
+    margin: 5% 1%;
+}
+
+#navs {
+    margin: 1% 5% 0 0;
+    border: 5px solid #eee;
+    float: right;
+}
+
 #body1 {
     position: absolute;
     border-top: 2px solid rgb(238, 95, 0);
     border-left: 2px solid rgb(238, 95, 0);
     height: 95%;
     width: 95%;
-    z-index: 0;
+    z-index: 1;
     margin-top: 5%;
     margin-left: 5%;
 }
@@ -27,16 +60,70 @@ body {
     border-right: 2px solid rgb(238, 95, 0);
     border-bottom: 2px solid rgb(238, 95, 0);
     height: 95%;
-    width: 95%;
-    z-index: 1;
+    width: 75%;
+    z-index: 0;
     margin-bottom: 5%;
     margin-right: 5%;
 }
+
+/* #collage{
+    width: 100%;
+    border-radius: 15%;
+    border: 2px solid rgb(238, 95, 0);
+    margin: 5%;
+} */
 
 #myName {
     font-size: 1.5em;
     width: 5%;
     text-align: center;
-    /* padding: 5px 0 90% 0; */
     font-family: 'Saira Stencil One', cursive;
+}
+
+#collage {
+    height: 600px;
+    width: 100%;
+    border: 5px solid black;
+}
+
+#Code {
+    position: absolute;
+    z-index: 3;
+    width: 80%;
+    margin: 10% 10% 0 5%;
+}
+
+#Atlanta {
+    position: absolute;
+    z-index: 4;
+    width: 35%;
+    margin: 50% 8% 0 13%;
+}
+
+#Billiards {
+    position: absolute;
+    z-index: 4;
+    width: 30%;
+    margin: 6% 5% 0 60%;
+}
+
+#PacMan {
+    position: absolute;
+    z-index: 4;
+    width: 25%;
+    margin: 35% 5% 0 65%;
+}
+
+#CutLip {
+    position: absolute;
+    z-index: 4;
+    width: 20%;
+    margin: 27% 8% 0 3%;
+}
+
+#TeamsATL {
+    position: absolute;
+    z-index: 4;
+    width: 33%;
+    margin: 3% 8% 0 13%;
 }

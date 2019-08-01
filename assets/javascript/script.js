@@ -1,4 +1,6 @@
 $(document).ready(function () {
+    $(".bio").attr("style", "display: none");
+    $(".myWork").attr("style", "display: none");
     var collageHeight = $("#Code").height();
     var setMarginForContact = collageHeight + 150;
 

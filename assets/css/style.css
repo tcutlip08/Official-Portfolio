@@ -49,7 +49,7 @@ body {
     position: absolute;
     border-top: 2px solid rgb(238, 95, 0);
     border-left: 2px solid rgb(238, 95, 0);
-    height: 95%;
+    /* height: 95%; */
     width: 95%;
     z-index: 1;
     margin-top: 5%;
@@ -58,9 +58,9 @@ body {
 
 #body2 {
     position: absolute;
-    border-right: 2px solid rgb(238, 95, 0);
-    border-bottom: 2px solid rgb(238, 95, 0);
-    height: 95%;
+    /* border-right: 2px solid rgb(238, 95, 0); */
+    /* border-bottom: 2px solid rgb(238, 95, 0); */
+    /* height: 100%; */
     width: 75%;
     z-index: 0;
     margin-bottom: 5%;
@@ -77,9 +77,10 @@ body {
 
 #myName {
     font-size: 1.5em;
-    width: 5%;
+    width: 6%;
     text-align: center;
     font-family: 'Saira Stencil One', cursive;
+    margin-top: 50px;
 }
 
 #collage {
@@ -89,7 +90,7 @@ body {
 }
 
 #Code {
-    border: 7px double rgba(32, 32, 32, 0.486);
+    border: 7px double #1e1e1eb0;
     position: absolute;
     z-index: 3;
     width: 80%;
@@ -98,7 +99,7 @@ body {
 
 #Atlanta {
     /* border:7px double rgb(141, 152, 168); */
-    border: 7px double rgba(32, 32, 32, 0.486);
+    border: 7px double #1e1e1eb0;
     position: absolute;
     z-index: 4;
     width: 35%;
@@ -107,7 +108,7 @@ body {
 
 #Billiards {
     /* border:7px double rgb(67, 113, 150); */
-    border: 7px double rgba(32, 32, 32, 0.486);
+    border: 7px double #1e1e1eb0;
     position: absolute;
     z-index: 4;
     width: 30%;
@@ -116,7 +117,7 @@ body {
 
 #PacMan {
     /* border:7px double rgb(255, 255, 255); */
-    border: 7px double rgba(32, 32, 32, 0.486);
+    border: 7px double #1e1e1eb0;
     position: absolute;
     z-index: 4;
     width: 25%;
@@ -125,7 +126,7 @@ body {
 
 #CutLip {
     /* border:7px double rgb(138, 44, 8); */
-    border: 7px double rgba(32, 32, 32, 0.486);
+    border: 7px double #1e1e1eb0;
     position: absolute;
     z-index: 4;
     width: 20%;
@@ -134,7 +135,7 @@ body {
 
 #TeamsATL {
     /* border:7px double rgb(24, 24, 24); */
-    border: 7px double rgba(32, 32, 32, 0.486);
+    border: 7px double #1e1e1eb0;
     position: absolute;
     z-index: 4;
     width: 33%;
@@ -152,10 +153,10 @@ body {
     #showContact {
         display: block;
     }
-    .forBigContact{
+    .forBigContact {
         display: none;
     }
-    .contact{
+    .contact {
         margin: 0 10px 5px 10px;
     }
 }
@@ -167,41 +168,43 @@ body {
     #showContact {
         display: none;
     }
-    #contact{
+    #contact {
         width: 100%;
         text-align: center;
         margin: 0 10px 5px 10px;
     }
-    #list-group li{
+    ul {
+        width: 50%;
+        text-align: center;
+        margin-left: 25%;
+    }
+    #list-group li {
         width: 50%;
     }
-    .forBigContact{
+    .forBigContact {
         display: none;
     }
 }
 
 @media only screen and (min-width: 1650px) {
-    #contact{
+    #contact {
         display: none;
     }
-
-    #allContactInfo{
-        display: none;    
+    #allContactInfo {
+        display: none;
     }
-
     #showContact {
         display: none;
     }
-    .forBigContact{
+    .forBigContact {
         display: block;
     }
-
-    .contact2{
+    .contact2 {
         text-align: center;
         border-bottom: 2px solid rgb(238, 95, 0);
         margin-top: 70%;
     }
-    li{
+    li {
         font-size: 1.5em;
     }
 }

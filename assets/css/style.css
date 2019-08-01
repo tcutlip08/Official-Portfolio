@@ -93,6 +93,7 @@ body {
 }
 
 #Code {
+    border:7px double rgba(32, 32, 32, 0.486);
     position: absolute;
     z-index: 3;
     width: 80%;
@@ -100,6 +101,8 @@ body {
 }
 
 #Atlanta {
+    /* border:7px double rgb(141, 152, 168); */
+    border:7px double rgba(32, 32, 32, 0.486);
     position: absolute;
     z-index: 4;
     width: 35%;
@@ -107,6 +110,8 @@ body {
 }
 
 #Billiards {
+    /* border:7px double rgb(67, 113, 150); */
+    border:7px double rgba(32, 32, 32, 0.486);
     position: absolute;
     z-index: 4;
     width: 30%;
@@ -114,6 +119,8 @@ body {
 }
 
 #PacMan {
+    /* border:7px double rgb(255, 255, 255); */
+    border:7px double rgba(32, 32, 32, 0.486);
     position: absolute;
     z-index: 4;
     width: 25%;
@@ -121,6 +128,8 @@ body {
 }
 
 #CutLip {
+    /* border:7px double rgb(138, 44, 8); */
+    border:7px double rgba(32, 32, 32, 0.486);
     position: absolute;
     z-index: 4;
     width: 20%;
@@ -128,6 +137,8 @@ body {
 }
 
 #TeamsATL {
+    /* border:7px double rgb(24, 24, 24); */
+    border:7px double rgba(32, 32, 32, 0.486);
     position: absolute;
     z-index: 4;
     width: 33%;

@@ -67,15 +67,11 @@ body {
     margin-right: 5%;
 }
 
-.contact{
-    margin: 10px 0 5px 10px;
-}
-
-#contact{
+#contact {
     border-bottom: 2px solid rgb(238, 95, 0);
 }
 
-.list-group{
+.list-group {
     text-align: center;
 }
 
@@ -87,13 +83,13 @@ body {
 }
 
 #collage {
-    height: 600px;
+    /* height: 600px; */
     width: 100%;
     /* border: 5px solid black; */
 }
 
 #Code {
-    border:7px double rgba(32, 32, 32, 0.486);
+    border: 7px double rgba(32, 32, 32, 0.486);
     position: absolute;
     z-index: 3;
     width: 80%;
@@ -102,7 +98,7 @@ body {
 
 #Atlanta {
     /* border:7px double rgb(141, 152, 168); */
-    border:7px double rgba(32, 32, 32, 0.486);
+    border: 7px double rgba(32, 32, 32, 0.486);
     position: absolute;
     z-index: 4;
     width: 35%;
@@ -111,7 +107,7 @@ body {
 
 #Billiards {
     /* border:7px double rgb(67, 113, 150); */
-    border:7px double rgba(32, 32, 32, 0.486);
+    border: 7px double rgba(32, 32, 32, 0.486);
     position: absolute;
     z-index: 4;
     width: 30%;
@@ -120,7 +116,7 @@ body {
 
 #PacMan {
     /* border:7px double rgb(255, 255, 255); */
-    border:7px double rgba(32, 32, 32, 0.486);
+    border: 7px double rgba(32, 32, 32, 0.486);
     position: absolute;
     z-index: 4;
     width: 25%;
@@ -129,7 +125,7 @@ body {
 
 #CutLip {
     /* border:7px double rgb(138, 44, 8); */
-    border:7px double rgba(32, 32, 32, 0.486);
+    border: 7px double rgba(32, 32, 32, 0.486);
     position: absolute;
     z-index: 4;
     width: 20%;
@@ -138,9 +134,74 @@ body {
 
 #TeamsATL {
     /* border:7px double rgb(24, 24, 24); */
-    border:7px double rgba(32, 32, 32, 0.486);
+    border: 7px double rgba(32, 32, 32, 0.486);
     position: absolute;
     z-index: 4;
     width: 33%;
     margin: 3% 8% 0 13%;
+}
+
+/* #allContactInfo{
+    margin-top: 600px;
+} */
+
+@media only screen and (min-width: 991px) {
+    #hideContact {
+        display: none;
+    }
+    #showContact {
+        display: block;
+    }
+    .forBigContact{
+        display: none;
+    }
+    .contact{
+        margin: 0 10px 5px 10px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    #hideContact {
+        display: block;
+    }
+    #showContact {
+        display: none;
+    }
+    #contact{
+        width: 100%;
+        text-align: center;
+        margin: 0 10px 5px 10px;
+    }
+    #list-group li{
+        width: 50%;
+    }
+    .forBigContact{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1650px) {
+    #contact{
+        display: none;
+    }
+
+    #allContactInfo{
+        display: none;    
+    }
+
+    #showContact {
+        display: none;
+    }
+    .forBigContact{
+        display: block;
+    }
+
+    .contact2{
+        text-align: center;
+        border-bottom: 2px solid rgb(238, 95, 0);
+        margin-top: 70%;
+    }
+    li{
+        font-size: 1.5em;
+    }
 }

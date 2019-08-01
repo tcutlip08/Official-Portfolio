@@ -26,7 +26,7 @@ body {
     /* border: 5px solid #eee; */
     width: 20%;
     height: 100%;
-    position: absolute;
+    position: fixed;
     right: 0;
     z-index: 2;
 }
@@ -39,9 +39,10 @@ body {
 }
 
 #navs {
-    margin: 1% 5% 0 0;
-    border: 5px solid #eee;
-    float: right;
+    margin: 1% 0 0 0;
+    /* border: 5px solid #eee; */
+    text-align: center;
+    font-size: 1.5em;
 }
 
 #body1 {
@@ -66,12 +67,17 @@ body {
     margin-right: 5%;
 }
 
-/* #collage{
-    width: 100%;
-    border-radius: 15%;
-    border: 2px solid rgb(238, 95, 0);
-    margin: 5%;
-} */
+.contact{
+    margin: 10px 0 5px 10px;
+}
+
+#contact{
+    border-bottom: 2px solid rgb(238, 95, 0);
+}
+
+.list-group{
+    text-align: center;
+}
 
 #myName {
     font-size: 1.5em;
@@ -83,7 +89,7 @@ body {
 #collage {
     height: 600px;
     width: 100%;
-    border: 5px solid black;
+    /* border: 5px solid black; */
 }
 
 #Code {

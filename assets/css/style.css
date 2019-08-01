@@ -60,7 +60,7 @@ body {
     position: absolute;
     /* border-right: 2px solid rgb(238, 95, 0); */
     /* border-bottom: 2px solid rgb(238, 95, 0); */
-    /* height: 100%; */
+    /* height: 95%; */
     width: 75%;
     z-index: 0;
     margin-bottom: 5%;
@@ -142,9 +142,13 @@ body {
     margin: 3% 8% 0 13%;
 }
 
-/* #allContactInfo{
-    margin-top: 600px;
-} */
+.slide{
+    margin-top: 20px;
+}
+
+.myWork{
+    text-align: center;
+}
 
 @media only screen and (min-width: 991px) {
     #hideContact {

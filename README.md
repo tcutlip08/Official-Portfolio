@@ -44,6 +44,8 @@ button where theirs does not. The goal is to choose a character and defeat the o
 
 # Jeopardy: jQuery #
 
+
+
 # GiphyAPI: API & Ajax #
 
 # Rock, Paper, Scissors: Firebase #

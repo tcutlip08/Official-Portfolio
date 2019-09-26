@@ -22,7 +22,7 @@ body {
 }
 
 .rightColumn {
-    background-color: rgb(87, 87, 87);
+    background-color: rgb(110, 110, 110);
     /* border: 5px solid #eee; */
     width: 20%;
     height: 100%;
@@ -142,11 +142,11 @@ body {
     margin: 3% 8% 0 13%;
 }
 
-.slide{
+.slide {
     margin-top: 20px;
 }
 
-.myWork{
+.myWork {
     text-align: center;
 }
 

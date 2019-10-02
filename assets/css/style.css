@@ -22,7 +22,7 @@ body {
 }
 
 .rightColumn {
-    background-color: rgb(110, 110, 110);
+    background-color: rgb(69, 69, 69);
     /* border: 5px solid #eee; */
     width: 20%;
     height: 100%;
@@ -43,6 +43,25 @@ body {
     /* border: 5px solid #eee; */
     text-align: center;
     font-size: 1.5em;
+}
+
+#navs a {
+    color: rgb(238, 95, 0);
+}
+
+#navs a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.myWork h3 a {
+    color: black;
+    text-decoration: underline;
+}
+
+.myWork h3 a:hover {
+    color: rgb(70, 70, 70);
+    text-decoration: underline;
 }
 
 #body1 {
